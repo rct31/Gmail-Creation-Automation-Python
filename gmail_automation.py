@@ -61,7 +61,7 @@ try:
     next_button = driver.find_element(By.CLASS_NAME, "VfPpkd-LgbsSe")
     next_button.click()
 
-    create_own_option = wait.until(EC.element_to_be_clickable((By.ID, "selectionc2")))
+    create_own_option = wait.until(EC.element_to_be_clickable((By.ID, "selectionc4")))
     create_own_option.click()
 
     create_own_email = wait.until(EC.element_to_be_clickable((By.NAME, "Username")))
